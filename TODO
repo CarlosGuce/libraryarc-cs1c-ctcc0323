@@ -1,0 +1,22 @@
+
+LibraryArc Project 
+ALREADY IMPLEMENTED:
+  - Login Frame (BACKEND):
+    - User Authentication Function, Moves to Inventory Frame
+  - Inventory Frame (FRONTEND): 
+    - Frame, Genres
+  - Borrowing Frame (FRONTEND):
+    - Frame
+
+TO BE IMPLEMENTED:
+  - Login Frame (FRONTEND):
+    - Background Image Missing
+  - Inventory Frame (FRONTEND & BACKEND):
+    - Book & Genre Icons missing
+    - Book Selection Function, Move to Borrowing Frame
+  - Borrowing Frame (BACKEND)
+    - Book Borrowing Function
+    - Logout Button / Return to Inventory Frame Button
+  - Returning Frame (FRONTEND & BACKEND):
+    - Book Return Function
+    - Logout Button / Return to Inventory Frame Button
