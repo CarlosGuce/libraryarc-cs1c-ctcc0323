@@ -147,7 +147,7 @@ public class Borrow extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(51, 102, 0), null));
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/bpsue.png"))); // NOI18N
+        //jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/bpsue.png"))); // NOI18N
 
         logout.setText("Log Out");
         logout.setBorder(null);

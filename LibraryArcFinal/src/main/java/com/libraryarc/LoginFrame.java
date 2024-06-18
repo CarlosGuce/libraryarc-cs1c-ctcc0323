@@ -100,13 +100,18 @@ public class LoginFrame extends javax.swing.JFrame {
             public void actionPerformed(ActionEvent e) {
                 String username = userText.getText();
                 String password = new String(passwordText.getPassword());
+                                    
 
                 // Validate the user credentials
                 if (validateLogin(username, password)) {
-                    JOptionPane.showMessageDialog(LoginFrame.this, "Login successful!");
+                    java.awt.EventQueue.invokeLater(() -> {                        
+                        dispose();
+                        new Borrow().setVisible(true);
+                    });
                 } else {
                     JOptionPane.showMessageDialog(LoginFrame.this, "Invalid username or password.");
-                }
+                }                
+                             
             }
         });
         

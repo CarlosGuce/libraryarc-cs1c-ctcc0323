@@ -1,6 +1,4 @@
 com\libraryarc\booksinv.class
-com\libraryarc\inventory.class
-com\libraryarc\inventory$Screen2$Book.class
 com\libraryarc\LoginFrame$2.class
 com\libraryarc\Borrow$4.class
 com\libraryarc\LoginFrame.class
@@ -10,7 +8,7 @@ com\libraryarc\LibraryArcFinal$1.class
 com\libraryarc\LoginFrame$3.class
 com\libraryarc\Borrow$7.class
 com\libraryarc\Borrow$6.class
-com\libraryarc\inventory$Screen2.class
+com\libraryarc\InvBook.class
 com\libraryarc\Borrow$2.class
 com\libraryarc\Borrow$5.class
 com\libraryarc\Borrow.class
