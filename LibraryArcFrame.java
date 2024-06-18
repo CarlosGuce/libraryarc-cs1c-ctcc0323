@@ -5,6 +5,11 @@ import javax.swing.*;
 import java.awt.*;  
 import java.awt.event.*; 
 
+/**
+ * This is the legacy file this project is based off of.
+ * (Project done by @CarlosGuce last Semester)
+ */
+
 public class LibraryArc {
 
     //Main class
@@ -19,22 +24,6 @@ public class LibraryArc {
         int clientNum = -1;
         int m = -1;
         int a = 0;
-        
-        File books = new File("bookData.txt");
-	
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("bookList.txt"))) {
-            String<String> books = new ArrayList<String>();
-            books.add("Book 1");
-            books.add("Book 2");
-            books.add("Book 3");
-            books.add("Book 4");
-            books.add("Book 5");
-            books.add("Book 6");
-            books.add("Book 7");
-            books.add("Book 8");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
         //welcome user
         //System.out.println("Welcome to the LibraryArc System, Please input your Login Credentials.");
